@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
 
-        <meta name="viewport" content="width=device-width", intial scale="1.0">
+        <meta name="viewport" content="width=device-width" intial scale="1.0">
         <link rel="stylesheet"type="text/css"href="style.css">
-        <link rel="stylesheet"type="text/css"href="D:\Jasper web project\project\grid.css">
+        <link rel="stylesheet"type="text/css"href="D:\FoodElement\project\grid.css">
         <link rel="stylesheet"type="text/css"href="Queries.css">
         <link rel="stylesheet"type="text/css"href="D:\New folder\5. The killer website project\Omnifood - After Section 6\vendors\css\ionicons.min.css">
         <title>Omnifood</title>
@@ -12,26 +12,25 @@
     <body>
         <header>
             <nav>
-                    <div class="logo-img">
-                       <img src="D:\New folder\5. The killer website project\Omnifood Contents\logo-white.png"alt="logo">                        
-                    </div>
-                    <div class="main-nav">
-                        <ul>
-                            <li><a href="#">Food delivery</a></li>
-                            <li><a href="#">How it works</a></li>
-                            <li><a href="#">Our cities</a></li>
-                            <li><a href="#">Sign up</a></li>
-                        </ul>
+                    <div class="row">
+                       <img src="D:\New folder\5. The killer website project\Omnifood Contents\logo-white.png"alt="Omni food logo" class="logo">                        
+                       <img src="logo.png"alt="Omni food logo" class="logo-black">                        
+                          <ul class="main-nav">
+                              <li><a href="#feature">Food delivery</a></li>
+                              <li><a href="#works">How it works</a></li>
+                              <li><a href="#cities">Our cities</a></li>
+                              <li><a href="#plans">Sign up</a></li>
+                            </ul>
                     </div> 
             </nav>
             <div class="hero-text-box">
                 
                 <h1>Goodbye junk food.<br>Hello super healthy food</h1>
-                  <a class="button button-full" href="#">I'm hungry</a>
-                  <a class="button button-ghost" href="#">Show me more</a>  
+                  <a class="button button-full js--scroll-to-plan" href="#">I'm hungry</a>
+                  <a class="button button-ghost js--scroll-to-start" href="#">Show me more</a>  
             </div>
         </header>
-        <section class="section-feature">
+        <section class="section-feature  js--section-feature" id="feature">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food.</h2>
                 <p class="long-copy">
@@ -122,7 +121,7 @@
                 </li>
             </ul>
         </section>
-        <section class="section-step">
+        <section class="section-step" id="works">
             <div class="row">
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>
@@ -150,7 +149,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-cities">
+        <section class="section-cities"id="cities">
             <div class="row">
                 <h2>We're currently in these cities</h2>
             </div>
@@ -249,7 +248,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-plans">
+        <section class="section-plans js--section-plans" id="plans">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
@@ -405,6 +404,7 @@
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="D:\imakewebthings-waypoints-34d9f6d\lib\jquery.waypoints.min.js"></script>
         <script src="jQuery.js"></script>
     </body>
 </html>
