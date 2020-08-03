@@ -81,6 +81,17 @@ header{
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
 }
+/*mobile nav*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    display: none;
+    cursor: pointer;
+}
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: white;
+}
 /*sticky navi*/
 .sticky{
     position: fixed;
@@ -491,8 +502,11 @@ footer p{
     opacity: 0;
     animation-duration: 1s;
 }
+.js--wp-4 {
+    animation-duration: 1s;
+}
 .js--wp-1 .animation,
 .js--wp-2 .animation,
-.js--wp-3 .animation,{
+.js--wp-3 .animation{
     opacity: 1;
 }
